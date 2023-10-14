@@ -1,0 +1,32 @@
+body{
+    background-color:red;
+}
+/* *{
+    margin:0;
+    padding: 0;
+
+} */
+.navigation ul li a{
+    text-decoration: none;
+   /* color:white; */
+}
+.navigation ul li{
+    list-style-type:none;
+}
+/* .favourite{
+    color:white;
+} */
+.install{
+    color:white;
+}
+/* .title-1{
+    width:200px;
+    height:100px;
+    color:white;
+    background-color: blue;
+    padding-inline: 25px;
+    font-size:20px;
+} */
+/* .playlist{
+    display:flex;
+} */
