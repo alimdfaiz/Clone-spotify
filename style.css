@@ -1,24 +1,23 @@
-body{
+/* body{
     background-color:black;
-}
-/* *{
-    margin:0;
-    padding: 0;
-
 } */
-.navigation ul li a{
-    text-decoration: none;
-   /* color:white; */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.navigation ul li{
-    list-style-type:none;
+.navigation ul li a {
+  text-decoration: none;
+}
+.navigation ul li {
+  list-style-type: none;
 }
 /* .favourite{
     color:white;
 } */
-.install{
+/* .install{
     color:white;
-}
+} */
 /* .title-1{
     width:200px;
     height:100px;
@@ -29,4 +28,134 @@ body{
 } */
 /* .playlist{
     display:flex;
+} */
+#main {
+  width: 100vw;
+  height: 90vw;
+  display: flex;
+}
+#sidebar {
+  flex: 1;
+  background-color: black;
+}
+#mainbar {
+  flex: 5;
+  background-color: blueviolet;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#player {
+  background-color: aqua;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+ 
+}
+.home {
+  padding-inline: 10px;
+  margin-top: 30px;
+  color: white;
+}
+.search {
+  padding-inline: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.library {
+  padding-inline: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.playlist > a > img {
+  /* padding-inline: 10px; */
+  margin-top: 30px;
+  color: white;
+}
+.song {
+  /* padding-inline: 10px; */
+  margin-top: 10px;
+}
+.song > a > img {
+  padding-inline: 5px;
+}
+.episodes {
+  /* padding-inline: 10px; */
+  margin-top: 10px;
+}
+.episodes > a > img {
+  padding-inline: 5px;
+}
+.fav {
+  padding-inline: 10px;
+  margin-top: 40px;
+}
+.fav > a {
+  color: white;
+}
+
+.weekly {
+  padding-inline: 10px;
+  margin-top: 10px;
+}
+.install {
+  padding-inline: 10px;
+  margin-top: 90px;
+}
+.weekly > a {
+  color: white;
+}
+.angel {
+  display: flex;
+  align-items: center;
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1 {
+  width: 300px;
+  height: 100px;
+  background: #303030;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.card1 > img {
+  margin-right: 30px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.show {
+  color: white;
+  font-size: 29px;
+  font-family: DM Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.good {
+  font-size: 38px;
+  font-family: DM Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.playlist-1{
+    display: flex;
+}
+/* .playlist-1>img>p{
+    display: flex;
+    flex-direction: column;
 } */
